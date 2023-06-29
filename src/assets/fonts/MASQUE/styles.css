@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'MASQUE__';
+  src: url(./MASQUE__.eot);
+  src: url(./MASQUE__.eot?#iefix) format('embedded-opentype'),
+       url(./MASQUE__.otf) format('otf'),
+       url(./MASQUE__.svg#MASQUE__) format('svg'),
+       url(./MASQUE__.ttf) format('truetype'),
+       url(./MASQUE__.woff) format('woff'),
+       url(./MASQUE__.woff2) format('woff2');
+}

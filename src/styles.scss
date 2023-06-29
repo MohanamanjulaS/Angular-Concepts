@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+
+* { margin: 0vw; padding: 0vw; }
+
+html {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+
+
+:host ::ng-deep .mdc-button:hover .mat-mdc-button, .mat-mdc-outlined-button {
+  --mat-mdc-button-persistent-ripple-color: transparent !important;
+  /* --mat-mdc-button-ripple-color: rgba(0, 0, 0, 0.1); */
+}
+
+
+//Fonts Used:
+
+@font-face {
+  font-family: 'Fusskia_Regular';
+  src: url(./assets/fonts/Fusskia-Regular/Fusskia_Regular.eot);
+  src: url(./assets/fonts/Fusskia-Regular/Fusskia_Regular.eot?#iefix) format('embedded-opentype'), url(./assets/fonts/Fusskia-Regular/Fusskia_Regular.otf) format('otf'), url(./assets/fonts/Fusskia-Regular/Fusskia_Regular.svg#Fusskia_Regular%20Demo) format('svg'), url(./assets/fonts/Fusskia-Regular/Fusskia_Regular.ttf) format('truetype'), url(./assets/fonts/Fusskia-Regular/Fusskia_Regular.woff) format('woff'), url(./assets/fonts/Fusskia-Regular/Fusskia_Regular.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'MASQUE__';
+  src: url(./assets/fonts/MASQUE/MASQUE__.eot);
+  src: url(./assets/fonts/MASQUE/MASQUE__.eot?#iefix) format('embedded-opentype'), url(./assets/fonts/MASQUE/MASQUE__.otf) format('otf'), url(./assets/fonts/MASQUE/MASQUE__.svg#MASQUE__) format('svg'), url(./assets/fonts/MASQUE/MASQUE__.ttf) format('truetype'), url(./assets/fonts/MASQUE/MASQUE__.woff) format('woff'), url(./assets/fonts/MASQUE/MASQUE__.woff2) format('woff2');
+}
+
+

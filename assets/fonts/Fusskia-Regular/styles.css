@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Fusskia-Regular Demo';
+  src: url(./Fusskia-Regular+Demo.eot);
+  src: url(./Fusskia-Regular+Demo.eot?#iefix) format('embedded-opentype'),
+       url(./Fusskia-Regular+Demo.otf) format('otf'),
+       url(./Fusskia-Regular+Demo.svg#Fusskia-Regular%20Demo) format('svg'),
+       url(./Fusskia-Regular+Demo.ttf) format('truetype'),
+       url(./Fusskia-Regular+Demo.woff) format('woff'),
+       url(./Fusskia-Regular+Demo.woff2) format('woff2');
+}

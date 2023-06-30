@@ -1,1 +1,11 @@
-<p>temp-syntx works!</p>
+<div class="pageLayout templatePage">
+  <div class="cardsContent" *ngFor="let items of templateHeading">
+    <mat-card>
+      <mat-card-title>{{items.topicName}}</mat-card-title>
+      <mat-card-content>Content goes here..</mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button>View</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>

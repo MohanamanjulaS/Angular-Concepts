@@ -1,1 +1,11 @@
-<p>comp-interaction works!</p>
+<div class="pageLayout compInteractionPage">
+  <div class="cardsContent" *ngFor="let items of compInteractionHeading">
+    <mat-card>
+      <mat-card-title>{{items.topicName}}</mat-card-title>
+      <mat-card-content>Content goes here..</mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button>View</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>

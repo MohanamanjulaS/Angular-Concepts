@@ -1,1 +1,11 @@
-<p>compstyling works!</p>
+<div class="pageLayout compStylePage">
+  <div class="cardsContent" *ngFor="let items of compStyleHeading">
+    <mat-card>
+      <mat-card-title>{{items.topicName}}</mat-card-title>
+      <mat-card-content>Content goes here..</mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button>View</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>

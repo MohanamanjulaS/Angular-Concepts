@@ -1,1 +1,11 @@
-<p>routings works!</p>
+<div class="pageLayout routingPage">
+  <div class="cardsContent" *ngFor="let items of  routingHeading">
+    <mat-card>
+      <mat-card-title>{{items.topicName}}</mat-card-title>
+      <mat-card-content>Content goes here..</mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button>View</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>

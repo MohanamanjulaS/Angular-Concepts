@@ -1,1 +1,11 @@
-<p>services works!</p>
+<div class="pageLayout servicePage">
+  <div class="cardsContent" *ngFor="let items of serviceHeading">
+    <mat-card>
+      <mat-card-title>{{items.topicName}}</mat-card-title>
+      <mat-card-content>Content goes here..</mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button>View</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>

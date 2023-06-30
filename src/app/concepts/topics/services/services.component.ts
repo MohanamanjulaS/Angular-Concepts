@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./services.component.scss']
 })
 export class ServicesComponent {
-
+  serviceHeading = [
+    { "topicName": "Dependency Injection" },
+    { "topicName": "Providing Services" }
+  ]
 }

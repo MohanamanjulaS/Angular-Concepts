@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./animations.component.scss']
 })
 export class AnimationsComponent {
-
+  animationHeading = [
+    { "topicName": "" },
+    { "topicName": "" }
+  ]
 }

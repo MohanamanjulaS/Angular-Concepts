@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./routings.component.scss']
 })
 export class RoutingsComponent {
-
+  routingHeading = [
+    { "topicName": "Router Module" },
+    { "topicName": "Configuring Routes" },
+    { "topicName": "Router Outlets" },
+    { "topicName": "Router Link" },
+    { "topicName": "Wildcard Routes" },
+    { "topicName": "Redirecting Routes" },
+    { "topicName": "Route Parameters" },
+    { "topicName": "Nested Routes" },
+    { "topicName": "Relative Paths" },
+    { "topicName": "Lazy Loading Routes" },
+    { "topicName": "Route Guards" },
+  ]
 }

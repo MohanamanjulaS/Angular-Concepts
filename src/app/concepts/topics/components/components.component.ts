@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./components.component.scss']
 })
 export class ComponentsComponent {
-
+  componentHeading = [
+    {"topicName": "Class"},
+    {"topicName":"Template"},
+    {"topicName": "Metadata"},
+  ];
 }

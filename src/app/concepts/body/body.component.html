@@ -7,7 +7,7 @@
   <mat-drawer-container autosize>
     <mat-drawer #drawer opened="false" mode="push" position="start">
       <mat-nav-list>
-        <mat-list-item  *ngFor="let names of menuList; let i = index" (click)= "this.selectedIndex=i" [ngClass]= "{ 'active': this.selectedIndex === i }">
+        <mat-list-item *ngFor="let names of menuList; let i = index" (click)= "this.selectedIndex=i" [ngClass]= "{ 'active': this.selectedIndex === i }">
           <button class="btnMenu" routerLink="{{names.link}}" routerLinkActive="active">
             <mat-icon>{{names.icon}}</mat-icon>{{names.topicName}}
           </button>

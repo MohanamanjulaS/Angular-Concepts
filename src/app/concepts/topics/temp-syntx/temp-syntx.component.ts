@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./temp-syntx.component.scss']
 })
 export class TempSyntxComponent {
-
+  templateHeading = [
+    { "topicName": "Interpolation" },
+    { "topicName": "Property Binding" },
+    { "topicName": "Event Binding" },
+    { "topicName": "Two Way Binding" },
+    { "topicName": "Pipes" },
+    { "topicName": "Template Reference Variable" },
+  ];
 }

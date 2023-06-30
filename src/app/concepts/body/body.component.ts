@@ -31,30 +31,3 @@ export class BodyComponent {
 }
 
 
-/*
-menuList = [
-  {
-    id: 1,
-    "headingTopic": "Fundamentals",
-    "fundTpcs": [
-      { "topicName": "Components" },
-      { "topicName": "Template Syntax" },
-      { "topicName": "Directives" },
-      { "topicName": "Component Styling" },
-      { "topicName": "Component Interations" },
-      { "topicName": "Life Cycle Methods" },
-    ],
-  },
-  {
-    id: 2,
-    "headingTopic": "Advances",
-    "AdvTpcs": [
-      { "topicName": "Services" },
-      { "topicName": "Observables" },
-      { "topicName": "HTTP Client" },
-      { "topicName": "Forms" },
-      { "topicName": "Routing" },
-      { "topicName": "Animations" },
-    ],
-  }
-]*/

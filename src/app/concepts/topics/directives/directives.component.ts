@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./directives.component.scss']
 })
 export class DirectivesComponent {
-
+  directiveHeading = [
+    { "topicName": "Component Directive" },
+    { "topicName": "Structural Directive" },
+    { "topicName": "Attribute Directive" },
+  ];
 }

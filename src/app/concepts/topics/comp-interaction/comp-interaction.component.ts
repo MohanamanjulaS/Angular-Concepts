@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./comp-interaction.component.scss']
 })
 export class CompInteractionComponent {
-
+  compInteractionHeading = [
+    { "topicName": "Input" },
+    { "topicName": "Output" }
+  ]
 }

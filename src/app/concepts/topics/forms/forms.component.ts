@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./forms.component.scss']
 })
 export class FormsComponent {
-
+  formHeading = [
+    { "topicName": "INPUT" },
+    { "topicName": "OUTPUT" }
+  ]
 }

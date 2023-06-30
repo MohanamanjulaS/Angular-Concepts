@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./obsrvbl.component.scss']
 })
 export class ObsrvblComponent {
-
+  observableHeading = [
+    { "topicName": "Creating Observables" },
+    { "topicName": "Subscribing to Observables" },
+    { "topicName": "Executing Observables" },
+    { "topicName": "Disposing Observables" },
+    { "topicName": "Operators" },
+  ]
 }

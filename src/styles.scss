@@ -9,11 +9,53 @@ html {
   overflow: hidden;
 }
 
+.pageLayout {
+  width: 90vw;
+  margin: 0 auto;
 
-:host ::ng-deep .mdc-button:hover .mat-mdc-button, .mat-mdc-outlined-button {
-  --mat-mdc-button-persistent-ripple-color: transparent !important;
-  /* --mat-mdc-button-ripple-color: rgba(0, 0, 0, 0.1); */
+  .cardsContent {
+    display: inline-flex;
+    width: 30vw;
+    height: 10vw;
+    margin: 3vw 0vw 0.5vw 0vw;
+
+    .mat-mdc-card {
+      position: relative;
+      width: 92%;
+      height: 100%;
+      margin: 0 auto;
+      padding: 1vw;
+      text-align: center;
+
+      &:hover {
+        border: 0.1vw solid #5ab7c2;
+        color: #0096a7;
+        transition: 0.2s;
+      }
+
+      .mdc-button {
+        position: absolute;
+        right: 1.5vw;
+        bottom: 1.5vw;
+
+        &:hover {
+          background: #3ec7d6;
+          transition: 0.2s;
+          color: #fff;
+          font-weight: bold;
+        }
+      }
+    }
+  }
 }
+
+
+/*:host ::ng-deep .mdc-button:hover .mat-mdc-button, .mat-mdc-outlined-button {
+  --mat-mdc-button-persistent-ripple-color: transparent !important;*/
+  /* --mat-mdc-button-ripple-color: rgba(0, 0, 0, 0.1); */
+/*}*/
+
+
 
 
 //Fonts Used:

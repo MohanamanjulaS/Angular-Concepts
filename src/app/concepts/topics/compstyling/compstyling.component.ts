@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./compstyling.component.scss']
 })
 export class CompstylingComponent {
-
+  compStyleHeading = [
+    { "topicName": "Class Binding" },
+    { "topicName": "Style Binding" },
+  ];
 }
